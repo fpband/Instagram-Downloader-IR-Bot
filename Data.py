@@ -13,7 +13,7 @@ You can also authorize me to download private posts.
 
 Use below buttons to learn more.
 
-Maintenance and Hosted by @IRBotsUpdate
+Maintenance and Hosted by @IRBotsUpdate <b> @IRBotsUpdate</b>
     """
 
     # Home Button
@@ -23,9 +23,9 @@ Maintenance and Hosted by @IRBotsUpdate
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/IRBotsUpdate")],
+        [InlineKeyboardButton("🤖 More Bots and Support Channel 🤖", url="https://t.me/IRBotsUpdate")],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
+            InlineKeyboardButton("❔ Help ❔", callback_data="help"),
             InlineKeyboardButton("🎪 About 🎪", callback_data="about")
         ],
         [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/IRBotsUpdate")],
@@ -51,15 +51,13 @@ Use /auth to authorize and /unauth to unauthorize.
     # About Message
     ABOUT = """
 **About This Bot** 
-
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/InstagramBot)
-
-Framework : [Pyrogram](docs.pyrogram.org)
-
-Language : [Python](www.python.org)
-
-Developer : @StarkProgrammer
-
-Maintenance : @IRBotsUpdate
+ **🤖 <b>Bot :** [Instagram Downloader IR Bot](https://t.me/igdlirbot)</b>\n
+ **👲 <b>Developer :** [Tellybots_4u](https://telegram.me/lhrfi)</b>\n
+ **👥 <b>Channel :** [Tellybots_4u](https://telegram.me/IRBotsUpdate)</b>\n
+ **❄️ <b>Credits :** Everyone in this journey</b>\n
+ **🍴 <b>Source :** [Click Here](https://github.com/StarkBotsIndustries/InstagramBot) </b>\n
+ **📝 <b>Language :** [Python3](https://python.org)</b>\n
+ **📚 <b>Library :** [Pyrogram v1.2.0](https://pyrogram.org)</b>\n
+ **🌟 <b>Server :** [Heroku](https://heroku.com)</b>\n
 
     """

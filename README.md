@@ -1,8 +1,6 @@
-# Instagram Downloader Bot [@InstaloaderStarkBot](https://t.me/InstaloaderStarkBot)
+# Instagram Downloader Bot [@IGDLIRBot](https://t.me/igdlirbot)
 
 > A star ⭐ from you means a lot to us!
-
-<p align="center"><a href="https://www.github.com/StarkBotsIndustries/InstagramBot"><img src="https://telegra.ph/file/4e8e8063cfb0de22b0161.jpg" width="2000"></a></p>
 
 Telegram bot to download instagram content.
 

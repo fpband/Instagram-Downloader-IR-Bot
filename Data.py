@@ -52,8 +52,8 @@ Use /auth to authorize and /unauth to unauthorize.
     ABOUT = """
 **About This Bot** 
  **🤖 <b>Bot :** [Instagram Downloader IR Bot](https://t.me/igdlirbot)</b>\n
- **👲 <b>Developer :** [Tellybots_4u](https://telegram.me/lhrfi)</b>\n
- **👥 <b>Channel :** [Tellybots_4u](https://telegram.me/IRBotsUpdate)</b>\n
+ **👲 <b>Developer :** [LhRfi](https://telegram.me/lhrfi)</b>\n
+ **👥 <b>Channel :** [IRBotsUpdate](https://telegram.me/IRBotsUpdate)</b>\n
  **❄️ <b>Credits :** Everyone in this journey</b>\n
  **🍴 <b>Source :** [Click Here](https://github.com/StarkBotsIndustries/InstagramBot) </b>\n
  **📝 <b>Language :** [Python3](https://python.org)</b>\n

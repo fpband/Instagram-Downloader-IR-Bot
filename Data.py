@@ -13,7 +13,7 @@ You can also authorize me to download private posts.
 
 Use below buttons to learn more.
 
-By @StarkBots
+Maintenance and Hosted by @IRBotsUpdate
     """
 
     # Home Button
@@ -23,12 +23,12 @@ By @StarkBots
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/IRBotsUpdate")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton("🎪 About 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
+        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/IRBotsUpdate")],
     ]
 
     # Help Message
@@ -38,7 +38,7 @@ Send the link here to get the post contents including caption.
 
 2) **Profile Pictures**
 Use the command `/profile_pic` or `/dp` along with instagram username to get its profile picture.
-Example : `/dp StarkProgrammer`
+Example : `/dp AnAccount`
 
 3) **Private Posts**
 Authorize the bot to download private posts. Use /auth
@@ -52,8 +52,6 @@ Use /auth to authorize and /unauth to unauthorize.
     ABOUT = """
 **About This Bot** 
 
-A telegram bot to download instagram content by @StarkBots
-
 Source Code : [Click Here](https://github.com/StarkBotsIndustries/InstagramBot)
 
 Framework : [Pyrogram](docs.pyrogram.org)
@@ -61,4 +59,7 @@ Framework : [Pyrogram](docs.pyrogram.org)
 Language : [Python](www.python.org)
 
 Developer : @StarkProgrammer
+
+Maintenance : @IRBotsUpdate
+
     """

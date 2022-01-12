@@ -7,7 +7,7 @@ from instaloader.exceptions import QueryReturnedNotFoundException, ProfileNotExi
 
 @Client.on_message(filters.private & filters.command(["profile_pic", "dp"]))
 async def dp(_, msg):
-    status = await msg.reply('📂 کمی صبور باشید | 📤در حال آپلود فایل...', quote=True)
+    status = await msg.reply('📂 کمی صبر کنید... | ⁦✴️⁩ در حال دریافت عکس پروفایل', quote=True)
     if len(msg.command) == 1:
         await msg.reply("Please do not use empty command. Below is the right format to get a profile pic. "
                         "\n\n`/profile_pic instagram-username` \n\nExample : `/profile_pic taaarannn`")

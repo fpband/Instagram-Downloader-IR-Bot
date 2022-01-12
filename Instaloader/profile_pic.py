@@ -27,7 +27,7 @@ async def dp(_, msg):
     files = os.listdir(text.lower())
     for file in files:
         if file.endswith(".jpg"):
-            caption = f"<b>✅با موفقیت آپلود شد.\n\n⁦✴️⁩ عکس پروفایل کاربر ← [@{text}](https://instagram.com/{text}) \n\n<✅ @IR_InstagramDlBot </b>"
+            caption = f"<b>✴️⁩ عکس پروفایل کاربر ← [@{text}](https://instagram.com/{text}) \n\n<✅ @IR_InstagramDlBot </b>"
             await msg.reply_photo(f"{text}/{file}", caption=caption)
             await status.delete()
     shutil.rmtree(text)

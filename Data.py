@@ -12,8 +12,6 @@ class Data:
 عکس پروفایل و دانلود پست های اینستاگرام را
 به راحتی دانلود کنید.🥰
 
-⁦🛠️⁩ سازنده ی ربات:<b>@FarshidBand</b>
-
     """
 
     # Home Button
@@ -23,7 +21,7 @@ class Data:
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("🤖 More Bots and Support Channel 🤖", url="https://t.me/IRBotsUpdate")],
+        [InlineKeyboardButton("🤖 سازنده ربات", url="https://t.me/FarshidBand")],
         [
             InlineKeyboardButton("📲 راهنمای ربات", callback_data="help"),
             InlineKeyboardButton("📍 درباره ی من", callback_data="about")

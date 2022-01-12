@@ -22,7 +22,7 @@ async def dp(_, msg):
         instaloader.Instaloader().download_profile(text, profile_pic_only=True)
     except (QueryReturnedNotFoundException, ProfileNotExistsException):
         await status.delete()
-        await msg.reply("No Such Instagram Account Exists.", quote=True)
+        await msg.reply("❌ لینک ارسالی نامعتبر میباشد.", quote=True)
         return
     files = os.listdir(text.lower())
     for file in files:

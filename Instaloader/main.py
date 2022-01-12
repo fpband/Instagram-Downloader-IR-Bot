@@ -40,9 +40,9 @@ async def main(_, msg):
             return
         if len(photos+videos) == 1:
             if caption:
-                caption += "\n\nBy @IRBotsUpdate"
+                caption += "\n\n🎀 آیدی ربات : @FarshidBand"
             else:
-                caption = "By @IRBotsUpdate"
+                caption = "\n\n🎀 آیدی ربات : @FarshidBand"
             if photos:
                 for photo in photos:
                     await msg.reply_photo(photo, caption)

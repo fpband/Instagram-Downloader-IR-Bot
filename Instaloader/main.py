@@ -11,7 +11,7 @@ from .database.users_sql import get_info
 async def main(_, msg):
     if 'instagram.com' not in msg.text:
         return
-    status = await msg.reply('Please Wait...', quote=True)
+    status = await msg.reply('📂 کمی صبر کنید... | 📤 در حال آپلود...', quote=True)
     pattern = re.compile(r'^(https?:[/][/])?(www\.)?instagram.com[/](p|reel)[/]([A-Za-z0-9-_]+)')
     try:
         matches = pattern.search(msg.text)
@@ -40,9 +40,9 @@ async def main(_, msg):
             return
         if len(photos+videos) == 1:
             if caption:
-                caption += "\n\n🎀 آیدی ربات : @FarshidBand"
+                caption += "\n\n🎀 آیدی ربات : @IR_InstagramDLBot"
             else:
-                caption = "\n\n🎀 آیدی ربات : @FarshidBand"
+                caption = "\n\n🎀 آیدی ربات : @IR_InstagramDlBot"
             if photos:
                 for photo in photos:
                     await msg.reply_photo(photo, caption)

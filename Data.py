@@ -6,7 +6,7 @@ class Data:
     START = """
 👋 سلام {} خوش آمدی.😍❤️
 
-⁦<b>✴️⁩ من ربات کاربردی اینستاگرام دانلودر هستم .</b>
+⁦<b>✴️⁩ من ربات کاربردی اینستاگرام دانلودر هستم.</b>
 
 I can download profile pictures, videos, images and reels from instagram along with post caption.
 You can also authorize me to download private posts.

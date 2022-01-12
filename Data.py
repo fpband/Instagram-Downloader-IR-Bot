@@ -6,19 +6,19 @@ class Data:
     START = """
 👋 سلام {} خوش آمدی.😍❤️
 
-⁦✴️⁩ من ربات کاربردی اینستاگرام دانلودر هستم .
+⁦<b>✴️⁩ من ربات کاربردی اینستاگرام دانلودر هستم .</b>
 
 I can download profile pictures, videos, images and reels from instagram along with post caption.
 You can also authorize me to download private posts.
 
 Use below buttons to learn more.
 
-Maintenance and Hosted by @IRBotsUpdate <b> @IRBotsUpdate</b>
+Maintenance and Hosted by <b> @IRBotsUpdate</b>
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]
+        [InlineKeyboardButton(text="↩ بازگشت به منوی اصلی", callback_data="home")]
     ]
 
     # Rest Buttons

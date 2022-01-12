@@ -36,7 +36,7 @@ async def main(_, msg):
         photos, videos, caption = post_prep(path)
         if not photos and not videos:
             await status.delete()
-            await msg.reply("No Such Instagram Post Exists.")
+            await msg.reply("لینک ارسالی نامعتبر میباشد.")
             return
         if len(photos+videos) == 1:
             if caption:

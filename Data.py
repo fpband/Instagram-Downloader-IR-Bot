@@ -50,14 +50,10 @@ Use /auth to authorize and /unauth to unauthorize.
 
     # About Message
     ABOUT = """
-**About This Bot** 
- **🤖 <b>Bot :** [Instagram Downloader IR Bot](https://t.me/igdlirbot)</b>\n
- **👲 <b>Developer :** [LhRfi](https://telegram.me/lhrfi)</b>\n
- **👥 <b>Channel :** [IRBotsUpdate](https://telegram.me/IRBotsUpdate)</b>\n
- **❄️ <b>Credits :** Everyone in this journey</b>\n
- **🍴 <b>Source :** [Click Here](https://github.com/StarkBotsIndustries/InstagramBot) </b>\n
- **📝 <b>Language :** [Python3](https://python.org)</b>\n
- **📚 <b>Library :** [Pyrogram v1.2.0](https://pyrogram.org)</b>\n
- **🌟 <b>Server :** [Heroku](https://heroku.com)</b>\n
+**📍 درباره ی من** 
 
+ **🤖 <b>نام ربات :** [اینستاگرام دانلودر](https://t.me/ir_instagrambot)</b>\n
+ **👲 <b>سازنده ربات :** [FﾑRSHIの-BﾑŊの](https://telegram.me/farshidband)</b>\n
+ **📢 <b>کانال پشتیبانی :** [Series+](https://telegram.me/SeriesPlus1)</b>\n
+ 
     """

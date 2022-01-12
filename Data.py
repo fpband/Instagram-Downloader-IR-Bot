@@ -49,7 +49,7 @@ Use /auth to authorize and /unauth to unauthorize.
     ABOUT = """
 **📍 درباره ی من** 
 
- **🤖 <b>نام ربات :** [اینستاگرام دانلودر](https://t.me/ir_instagrambot)</b>\n
+ **🤖 <b>نام ربات :** [اینستاگرام دانلودر](https://t.me/ir_instagramdlbot)</b>\n
  **👲 <b>سازنده ربات :** [FﾑRSHIの-BﾑŊの](https://telegram.me/farshidband)</b>\n
  **📢 <b>کانال پشتیبانی :** [Series+](https://telegram.me/SeriesPlus1)</b>\n
  

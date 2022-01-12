@@ -19,7 +19,7 @@ async def must_join_channel(bot: Client, msg: Message):
                 link = chat_info.invite_link
             try:
                 await msg.reply(
-                    f"🔹ابتدا در [کانال پشتیبانی]({link}) زیر عضو شوید./nسپس روی /start کلیک کنید.",
+                    f"<b>🔹ابتدا در [کانال پشتیبانی]({link}) زیر عضو شوید./nسپس روی /start کلیک کنید.</b>",
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup([
                         [InlineKeyboardButton("⭕ عضویت ⭕", url=link)]

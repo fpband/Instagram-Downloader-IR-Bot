@@ -6,7 +6,7 @@ class Data:
     START = """
 👋 سلام {} خوش آمدی.😍❤️
 
-Welcome to {}
+⁦✴️⁩ من ربات کاربردی اینستاگرام دانلودر هستم .
 
 I can download profile pictures, videos, images and reels from instagram along with post caption.
 You can also authorize me to download private posts.
@@ -25,10 +25,10 @@ Maintenance and Hosted by @IRBotsUpdate <b> @IRBotsUpdate</b>
     buttons = [
         [InlineKeyboardButton("🤖 More Bots and Support Channel 🤖", url="https://t.me/IRBotsUpdate")],
         [
-            InlineKeyboardButton("❔ Help ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("📲 راهنمای ربات", callback_data="help"),
+            InlineKeyboardButton("📍 درباره ی من", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/IRBotsUpdate")],
+        [InlineKeyboardButton("⭕ کانال پشتیبانی ⭕", url="https://t.me/SeriesPlus1")],
     ]
 
     # Help Message
